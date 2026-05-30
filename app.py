@@ -492,5 +492,4 @@ elif question == "Q5: Category Profitability Risk":
             )
             result = call_groq(prompt)
             st.markdown(f'<div class="ai-box">{result}</div>', unsafe_allow_html=True)
-ENDOFFILE
-python3 -c "import ast; ast.parse(open('/home/claude/predictive_v2.py').read()); print('✅ Syntax is 100% clean!')"
+
